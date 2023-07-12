@@ -1,0 +1,23 @@
+s1={10,20,30,"rk",5}
+s2={10,40,"abcd",3.5}
+print (s1)
+print (s2)
+s1.add(67)
+print(s1)
+print (s1.union(s2))
+print(s1.intersection(s2))
+print(s2.difference(s1))
+s1.update("pq")
+print(s1)
+s1.remove(30)
+print(s1)
+s2.discard(40)
+print(s2)
+s1.pop()
+print(s1)
+s2.copy()
+print(s2)
+s2.clear()
+print(s2)
+print(len(s1))
+del s1
