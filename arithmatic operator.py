@@ -1,0 +1,16 @@
+a=int(input("enter a no1:"))
+b=int(input("enter a no2:"))
+c=a+b
+print("addition=",c)
+c=a-b
+print("substraction=",c)
+c=a*b
+print("multiplication=",c)
+c=a/b
+print("division=",c)
+c=a%b
+print("modulor=",c)
+c=a**b
+print("exponetial=",c)
+c=a//b
+print("floor division=",c)
