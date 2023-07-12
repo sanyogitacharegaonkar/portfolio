@@ -1,0 +1,27 @@
+l1=["location","pune","Company","Sumo Digital","employee"]
+l2=[10,500,30,50,40]
+print(l1)
+print(l2)
+print("length of l1:",len(l1))
+l1.insert(4,"Sanyogita")
+print(l1)
+l2.append(33)
+print(l2)
+l1.extend(l2)
+print(l1)
+l1.remove("employee")
+print(l1)
+l2.pop()
+print(l2)
+print("10 count in l2:",l2.count(10))
+l1.reverse()
+print(l1)
+l2.sort()
+print(l2)
+print("index of 5 in l2",l2.index(40))
+l1.__class__
+print(l1)
+l1.reverse()
+print(l1)
+del l1
+print(l2)
