@@ -1,0 +1,9 @@
+d1={}
+d2={"name":"abc","rollno":7208}
+print(d1)
+print(d2)
+print(type(d1))
+print(type(d2))
+d1["name"]="disha"
+print(d1)
+print(d2["rollno"])
