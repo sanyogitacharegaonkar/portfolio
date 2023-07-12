@@ -1,0 +1,8 @@
+t1=(10,20,30,0.03,50,"pqr","x2")
+print(t1)
+print(t1[0])
+print(t1[-1])
+print(t1[0:3])
+print(t1[ :4])
+print(t1[ : ])
+print(t1[ :2:6])
